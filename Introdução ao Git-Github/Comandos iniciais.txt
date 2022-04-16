@@ -1,0 +1,19 @@
+Comandos básicos:
+
+git init (Inicia um repositório local)
+git add * (Adiciona modificações do projeto ao estado Staged)
+git status (Verifica os estados dos arquivos atuais do projeto) 
+git commit -m "Mensagem aqui" (Valida as modificações seguido por uma mensagem informando a razão do commit)
+
+git clone (Cria uma cópia do repositório remoto para o local)
+git push (Empurra as modificações feitas localmente para o repositório remoto)
+git pull (Usado em situações de conflito de versões no repositório remoto)
+
+Comandos úteis:
+
+git log
+git diff
+git revert
+git show
+git checkout
+git branch 
