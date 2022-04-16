@@ -7,13 +7,14 @@ git commit -m "Mensagem aqui" (Valida as modificações seguido por uma mensagem
 
 git clone (Cria uma cópia do repositório remoto para o local)
 git push (Empurra as modificações feitas localmente para o repositório remoto)
-git pull (Usado em situações de conflito de versões no repositório remoto)
+git pull (Usado para requisitar uma modificação no branch main e em situações de conflito de versões no repositório)
 
 Comandos úteis:
 
-git log
-git diff
-git revert
-git show
-git checkout
-git branch 
+git log (Exibir o histórico de commits do projeto)
+git diff [nome arquivo] (Exibir as diferenças entre versões de um arquivo)
+git revert [codigo hash] (Reverter um commit)
+git remote (Exibe os repositórios remotos)  
+git checkout [nome branch] (Navega entre os branches)
+git branch [nome] (Cria um novo branch)
+git branch -d [nome] (Deleta um branch)
